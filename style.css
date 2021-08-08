@@ -1,0 +1,199 @@
+h1{
+
+    color:aqua;
+    border:solid;
+    border-color:#ffbb00;
+   
+}
+
+
+h2{
+
+    color: aqua;
+    
+}
+
+h3{
+
+    color: aqua;
+    
+}
+
+.FF{
+
+    border-radius: 20px;
+    background-image: url(images/background.PNG);
+    padding: 30px;
+    margin: 25px;
+    width:350px;
+
+}
+
+.FF:hover{
+
+    transform: scale(1.2);
+    
+}
+
+.Student{
+
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 25px;
+    width:300px;
+    margin-right: 100px;
+
+}
+
+.Student:hover{
+
+    transform: scale(1.2);
+
+}
+
+.Name{
+
+display:flex;
+justify-content: space-between;
+
+}
+
+.Games{
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.RD{
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.Player{
+
+    border-radius: 20px;
+    background-color: #ffffff;
+    font-size: 25px;
+    padding: 30px;
+    margin: 25px;
+    align-items: center;
+    width:600px;
+    background-image: url(images/background.PNG);
+}
+
+.Player:hover{
+
+    transform: scale(1.2);
+    
+}
+
+.SocialMedia{
+    
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 25px;
+    width:200px;
+    
+}
+
+.game{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.SocialMedia:hover{
+
+    transform: scale(1.2);
+
+}
+
+#scrollToTopBtn:hover{
+    transform: scale(1.1);
+}
+
+#scrollToTopBtn {
+    position:fixed;
+    width:70px;
+    height: 70px;
+    bottom:10%;
+    right:2%;
+    background-color:white;
+    color:#fff;
+    border-radius:100%;
+    text-align:center;
+    font-size:30px;
+    background: #000;
+}
+body{
+    background: linear-gradient(#ffbb00 0%, #ffffff 50%, rgb(0, 255, 76));
+    
+}
+.bubbles img{
+    width:50px;
+    animation:bubble 7s linear infinite ;
+}
+.bubbles{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    position:absolute;
+    bottom: -2700px;
+}
+
+@keyframes bubble{
+    0%{
+        transform:translateY(0);
+        opacity: 0;
+    }
+    50%{
+        transform:translateY(-350vh);
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    100%{
+        transform:translateY(-550vh);
+        opacity: 0;
+    }
+
+}
+
+.bubbles img:nth-child(1){
+    animation-delay:2s;
+    width:120px;
+}
+.bubbles img:nth-child(2){
+    animation-delay:1s;
+    width:90px;
+}
+.bubbles img:nth-child(3){
+    animation-delay:3s;
+    width:80px;
+}
+.bubbles img:nth-child(4){
+    animation-delay:4.5s;
+    width:110px;
+}
+.bubbles img:nth-child(5){
+    animation-delay:3s;
+    width:50px;
+}
+.bubbles img:nth-child(6){
+    width:100px;
+    animation-delay:6s;
+}
+.bubbles img:nth-child(7){
+    width:95px;
+    animation-delay:7s;
+}
